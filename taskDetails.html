@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task </title>
+    <link rel="stylesheet" href="css_pages/style.css">
+</head>
+<body>
+    <nav>
+        <a href="TaskList.html">Task List</a>
+    </nav>
+    <div>
+    <h2 id="tsk">Task </h2>
+        <ul>
+            <li>
+                <p id="id">Task ID: </p>
+            </li>
+            <li>
+                <p id ="title">Task title: </p>
+            </li>
+            <li>
+                <p id="teacher">Teacher name: </p>
+            </li>
+            <li>
+                <p id="prio">Priority: </p>
+            </li>
+            <li>
+                <p id="desc">Description: </p>
+            </li>
+            <li>
+                <p id="creator">Created by: </p>
+            </li>
+            <li id="statusli">
+                <p id="status">Status: </p>
+            </li>
+        </ul>
+    </div>
+    <br>
+
+    <button id="completeButton" type="submit" onclick="comp()" title="Mark as Completed">Completed</button>
+    <button id="editButton" onclick="location.href='Edit_Task.html'">Edit Task Details</button>
+    <form id="deleteForm" onsubmit = "return deleteTask();">
+        <input type="hidden" name="task_id" value="1">
+        <input type="submit" value="Delete Task">
+    </form>
+
+    <script src="javaScript_pages/taskDetails.js"></script>
+    <script src = 'javaScript_pages/nav.js'></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="" content="">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="css_pages/signup_page.css">
+    
+</head>
+<body>
+    <h1> School Task Assignment Website </h1>
+
+    <div class="form">
+
+        <h2>Sign up</h2>
+
+        <form action="login_page.html" id="signupForm">
+
+            <input type="text" id="username" placeholder="Username" required><br>
+           
+            
+            <input type="password" id="password" placeholder="Password" required><br>
+            
+            
+            <input type="password" id="confirm password" placeholder="Confirm password" required><br>
+           
+            
+            <input type="email" id="email" placeholder="Email" required><br>
+           
+            <div>
+              <label>Sign as:</label>
+              <select name="is_admin" id="is_admin" >
+                 <option value="admin" selected> admin</option>
+                 <option value="teacher"> teacher</option>
+              </select>
+            </div><br>
+
+            <input type="submit"  id = "submit" value="Sign Up">
+
+            <p>
+                Already have an account? <a href="login_page.html"> Login</a>
+            </p>
+            
+        </form>
+       
+    </div>
+
+    <script src="javaScript_pages/signup_page.js"></script>
+</body>
+</html >

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Task</title>
+    <link rel="stylesheet" href="css_pages/style.css">
+</head>
+<body>
+    <nav>
+        <a href="TaskList.html">Task List</a>
+    </nav>
+    <h2>Edit the required field</h2>
+    <form onsubmit="return editTask();">
+        <div>
+            <label for="taskTitle">New Task Title:</label>
+            <input type="text" id="taskTitle" name="taskTitle" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="teacherName">New Teacher Name:</label>
+            <input type="text" id="teacherName" name="teacherName" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" placeholder="write your description" required></textarea>
+        </div>
+        <br>
+        <input id="sbmt" type="submit" value="Edit Task">
+    </form>
+    <script src="javaScript_pages/Edit_Task.js"></script>
+</body>
+</html>
