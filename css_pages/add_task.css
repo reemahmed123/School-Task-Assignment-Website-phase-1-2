@@ -1,0 +1,92 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images\ \(2\).jpeg");
+    background-size: 100%;
+    display: flex;
+    justify-content:center;
+   }
+   .head {
+     max-width: 600px;
+     padding: 20px;
+    
+   }
+   h1 {
+     color: white;
+     background-color: #2f4159;
+     text-align: center;
+     border-radius: 20px;
+     padding: 10px;
+   }
+   textarea{
+     width: 100%;
+   }
+   .inputs {
+    width: 600px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    
+
+   }
+   input:focus{
+     transform: scale(1.09);
+   }
+   label {
+     display: block;
+     font-weight: bold;
+     padding: 10px 0;
+   }
+   
+   input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #999;
+    font-family: Poppins;
+    box-sizing: border-box;
+   }
+   
+   .btnAdd {
+     
+     text-align: center;
+   }
+    .btn {
+    
+     padding: 10px 20px;
+     background-color: #2f4159;
+     margin-top: 40px;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     border-radius: 40px;
+   }
+   
+   .btn:hover {
+    
+     background-color: #999393;
+     transition: .5s;
+   }
+   
+   .task-list {
+     margin-top: 30px;
+   }
+   
+   .task-item {
+     margin-bottom: 10px;
+   }
+   
+   .task-item .Name {
+     font-weight: bold;
+   }
+   
+   .task-item .delete-btn {
+     color: white;
+     background-color: red;
+     padding: 10px;
+     cursor: pointer;
+   }
